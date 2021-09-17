@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    /* background-color: aqua; */
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+}
+
+.left {
+    /* background-color: blue; */
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    height: 100vh;
+}
+
+.logo {
+    top: 36px;
+    left: 36px;
+    width: 46px;
+    /* position: absolute; */
+}
+
+form input {
+    width: 406px;
+    height: 45px;
+    border: none;
+    background-color: #ffffff;
+    border: solid 0.5px #507A4F;
+    border-radius: 5px;
+}
+
+form input[type="email"], input[type="password"] {
+    /* atas, kanan, bawah, kiri */
+    padding: 0px 0px 0px 15px;
+    color: #507A4F;
+}
+
+form input:focus {
+    border: none;
+    border: solid 0.5px #282117;
+    background-color: #ffffff;
+}
+
+form input, label {
+    color: #282117;
+}
+
+.link-page {
+    color: #282117;
+}
+
+.link-page:hover {
+    color: #507A4F;
+}
+
+.other{
+    color: #507A4F;
+}
+
+.other:hover{
+    color: #282117;
+}
+
+button {
+    color: white;
+    background-color: #282117;
+    width: 406px;
+    height: 45px;
+    border: solid 1px #282117 ;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #507A4F;
+    border: solid 1px #507A4F ;
+}
+
+button:focus {
+    background-color: #507A4F;
+    border: solid 1px #507A4F ;
+}
+
+
+.right {
+    background-color: #8fd88d;
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    /* border: 3px solid #FDB60C; */
+    /* border-left: solid 1px black; */
+    height: 100vh;
+}
+
+.right .illustration {
+    width: 300px;
+    /* float: right; */
+    /* height: 304; */
+    /* width: 350px;
+    height: 100px; */
+    /* border-radius: 20px; */
+    /* background-color: #464646; */
+    /* margin-top: 72px; */
+}
+
+/* ================================================= RESPONSIVE ================================================= */
+
+/* // Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+    
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+
+
+    .right {
+        display: none;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+
+
+    .right {
+        display: none;
+    }
+}
