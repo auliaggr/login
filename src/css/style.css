@@ -6,7 +6,6 @@
 }
 
 html, body {
-    /* background-color: aqua; */
     height: 100%;
 }
 
@@ -15,7 +14,6 @@ html, body {
 }
 
 .left {
-    /* background-color: blue; */
     display: flex;
     /* text-align: center; */
     justify-content: center;
@@ -29,8 +27,8 @@ html, body {
     /* position: absolute; */
 }
 
-form input {
-    width: 406px;
+.form-control {
+    width: 346px;
     height: 45px;
     border: none;
     background-color: #ffffff;
@@ -44,7 +42,7 @@ form input[type="email"], input[type="password"] {
     color: #507A4F;
 }
 
-form input:focus {
+.form-control:focus {
     border: none;
     border: solid 0.5px #282117;
     background-color: #ffffff;
@@ -73,7 +71,7 @@ form input, label {
 button {
     color: white;
     background-color: #282117;
-    width: 406px;
+    width: 346px;
     height: 45px;
     border: solid 1px #282117 ;
     border-radius: 5px;
