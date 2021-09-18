@@ -97,6 +97,7 @@ button:focus {
 .right {
     background-color: #8fd88d;
     display: flex;
+    /* text-align: center; */
     justify-content: center;
     height: 100vh;
 }
@@ -106,7 +107,14 @@ button:focus {
 }
 
 .right .illustration {
-    width: 500px;
+    width: 450px;
+    /* float: right; */
+    /* height: 304; */
+    /* width: 350px;
+    height: 100px; */
+    /* border-radius: 20px; */
+    /* background-color: #464646; */
+    /* margin-top: 72px; */
 }
 
 /* ================================================= RESPONSIVE ================================================= */
